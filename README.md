@@ -59,7 +59,7 @@ Para el desarrollo del proyecto de creó un diagrama de clases el cual permitir�
 
 Además de ello se creó un diagrama de casos de uso, el cual nos permitiría dimensionar los alcances que la aplicación le podría brindar al usuario.
 
-(Imagen)
+![dcu](casos de uso.png]
 
 ### Desarrollo de la aplicación:
 
