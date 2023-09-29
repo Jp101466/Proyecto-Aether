@@ -55,7 +55,7 @@ Así, pues, de conformidad con lo establecido por el artículo 134 de la Decisi�
 
 Para el desarrollo del proyecto de creó un diagrama de clases el cual permitiría dimensionar la estructuración de toda la programación, tanto de la aplicación como del dispositivo a implementar en los electrodomésticos.
 
-![bdd](diagrama%20de%20clases.png)
+![bdd](diagrama%20final.png)
 
 Además de ello se creó un diagrama de casos de uso, el cual nos permitiría dimensionar los alcances que la aplicación le podría brindar al usuario.
 
