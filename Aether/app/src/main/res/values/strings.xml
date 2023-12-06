@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Aether</string>
+
+    <string-array name="Dispositivos">
+        <item>Seleccionar</item>
+        <item>Luces</item>
+        <item>Televisor</item>
+        <item>Ventilador</item>
+        <item>Foco</item>
+    </string-array>
+</resources>

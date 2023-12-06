@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Aether"
+        tools:targetApi="31">
+        <activity
+            android:name=".sensorLuces"
+            android:exported="false" />
+        <activity
+            android:name=".IntensityModel"
+            android:exported="false" />
+        <activity
+            android:name=".SensorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HorarioXSensorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SensoresActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SensoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SetDeviceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewHorarioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterModelView"
+            android:exported="true" />
+        <activity
+            android:name=".LobbyActivityModel"
+            android:exported="true" />
+        <activity
+            android:name=".CrearHorarioActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
